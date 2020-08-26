@@ -61,6 +61,7 @@ class Home extends StatelessWidget{
     return Scaffold(
         drawer: AppDrawer(),
         appBar: AppBar(
+
           centerTitle: true,
           title: Text('Primedash',style: TextStyle(fontFamily: 'logo', fontSize: 30, color: Color.fromRGBO(252,238,10, 1))),
 
@@ -83,7 +84,7 @@ class myApp extends StatelessWidget {
 
 
     return MaterialApp(
-
+    debugShowCheckedModeBanner: false,
       color: Colors.red,
       home: Scaffold(
 
